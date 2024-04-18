@@ -286,45 +286,29 @@ function App() {
                             Attributions
                         </h1>
                         <div className={"rounded p-6 mx-52 mb-4 border-2 border-amber-500"}>
-                            <h1 className={"text-2xl tracking-wider text-red-600 font-extrabold border-2 rounded-md border-black inline-block"}>
-                                Under Construction
-                            </h1>
+                            {/*<h1 className={"text-2xl tracking-wider text-red-600 font-extrabold border-2 rounded-md border-black inline-block"}>*/}
+                            {/*    Under Construction*/}
+                            {/*</h1>*/}
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Id faucibus nisl tincidunt eget nullam non nisi est.
-                                Pellentesque id nibh tortor id aliquet lectus proin. Feugiat sed lectus vestibulum mattis
-                                ullamcorper velit sed ullamcorper morbi. Volutpat est velit egestas dui id ornare arcu. In
-                                cursus turpis massa tincidunt. Purus gravida quis blandit turpis cursus in hac habitasse.
-                                Quis auctor elit sed vulputate mi. Nulla facilisi cras fermentum odio eu. Ut pharetra sit
-                                amet aliquam id diam maecenas ultricies. Elementum sagittis vitae et leo duis. Ornare arcu
-                                odio ut sem nulla pharetra diam sit. Lorem ipsum dolor sit amet consectetur adipiscing elit.
-                                Porttitor massa id neque aliquam vestibulum morbi blandit.
-
-                                Eu scelerisque felis imperdiet proin fermentum leo vel orci porta. Etiam non quam lacus
-                                suspendisse faucibus interdum posuere lorem. Sollicitudin aliquam ultrices sagittis orci a.
-                                Tempor commodo ullamcorper a lacus vestibulum sed arcu. Aliquet lectus proin nibh nisl
-                                condimentum. Consequat ac felis donec et. Accumsan in nisl nisi scelerisque eu ultrices
-                                vitae auctor eu. Duis convallis convallis tellus id. Suspendisse potenti nullam ac tortor
-                                vitae purus faucibus ornare. Bibendum est ultricies integer quis auctor elit sed vulputate.
-                                Cras ornare arcu dui vivamus arcu felis bibendum ut. Bibendum enim facilisis gravida neque
-                                convallis a cras semper. Proin fermentum leo vel orci porta non. Varius morbi enim nunc
-                                faucibus a pellentesque sit. Auctor eu augue ut lectus. Et odio pellentesque diam volutpat
-                                commodo sed egestas egestas fringilla. Malesuada fames ac turpis egestas sed tempus.
-                                Tincidunt ornare massa eget egestas purus viverra accumsan in. Eget aliquet nibh praesent
-                                tristique. Auctor urna nunc id cursus.
-
+                                [1] A. V. Helden, “Galileo - Telescopic discoveries,” Encyclopædia Britannica. 2019. Available: https://www.britannica.com/biography/Galileo-Galilei/Telescopic-discoveries
                                 <br/>
+                                [2] CLEE25, “Wisconsin 101: Yerkes Telescope And The Birthplace Of Astrophysics,” Wisconsin Life, Nov. 23, 2023. https://wisconsinlife.org/story/wisconsin-101-yerkes-telescope-and-the-birthplace-of-astrophysics/ (accessed Apr. 16, 2024).
                                 <br/>
-
-                                Elementum integer enim neque volutpat ac tincidunt vitae semper. Ut aliquam purus sit amet
-                                luctus venenatis lectus magna fringilla. Odio morbi quis commodo odio. In egestas erat
-                                imperdiet sed. Facilisis volutpat est velit egestas dui id. Odio morbi quis commodo odio
-                                aenean sed adipiscing diam. Tristique sollicitudin nibh sit amet. Vitae congue eu consequat
-                                ac felis donec et odio. Vestibulum lorem sed risus ultricies tristique nulla aliquet enim.
-                                Gravida neque convallis a cras semper auctor neque. Facilisi etiam dignissim diam quis enim
-                                lobortis scelerisque. Porta lorem mollis aliquam ut. Commodo ullamcorper a lacus vestibulum
-                                sed arcu non odio euismod. Ultrices gravida dictum fusce ut placerat orci nulla. Tristique
-                                senectus et netus et. Lectus magna fringilla urna porttitor rhoncus dolor.
+                                [3] NASA, “Hubble Timeline - NASA Science,” science.nasa.gov. https://science.nasa.gov/mission/hubble/overview/hubble-timeline/
+                                <br/>
+                                [4]F. Summers, “Cosmic Concepts: Advantages of Space Telescopes,” NASA Hubblesite, Oct. 03, 2019. https://hubblesite.org/contents/media/videos/805-Video?keyword=Universe (accessed Apr. 16, 2024).
+                                <br/>
+                                [5] J. Lattis, “The World’s First Space Telescope,” Scientific American. https://www.scientificamerican.com/blog/observations/the-worlds-first-space-telescope/ (accessed Apr. 16, 2024).
+                                <br/>
+                                [6] “NASA’s First Stellar Observatory, OAO 2, Turns 50 - NASA,” Dec. 11, 2018. https://www.nasa.gov/solar-system/nasas-first-stellar-observatory-oao-2-turns-50/
+                                <br/>
+                                [7] https://jpl.nasa.gov, “IRAS - Universe Missions - NASA Jet Propulsion Laboratory,” NASA Jet Propulsion Laboratory (JPL). https://www.jpl.nasa.gov/missions/infrared-astronomical-satellite-iras
+                                <br/>
+                                [8]“Science Highlights - NASA Science,” science.nasa.gov. https://science.nasa.gov/mission/hubble/science/science-highlights/
+                                <br/>
+                                [9] NASA, “First Image of a Black Hole - NASA Science,” science.nasa.gov, Apr. 10, 2019. https://science.nasa.gov/resource/first-image-of-a-black-hole/
+                                <br/>
+                                [10] S. Magazine and E. Gamillo, “NASA’s James Webb Space Telescope Will Launch Into Orbit in December,” Smithsonian Magazine. https://www.smithsonianmag.com/smart-news/nasas-james-webb-space-telescope-will-launch-into-orbit-early-winter-180978727/
                             </p>
                         </div>
                     </div>
