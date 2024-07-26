@@ -48,6 +48,28 @@
   color: white;
 }
 
+.evelynsshit {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  background-image: url("https://images6.alphacoders.com/109/1096278.jpg");
+}
+
+.evelynsshit2 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlG-wKTO_D8_ypXsZpTosg228C09qo4IaqGw&s");
+  /*color: #ffdc01;*/
+  /*font-size: 20rem;*/
+}
+
 .alumniPin {
   font-family: 'Alumni Sans Pinstripe', sans-serif;
 }
