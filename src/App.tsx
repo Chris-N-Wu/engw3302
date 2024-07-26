@@ -26,12 +26,17 @@ function App() {
 
     const timelineSection = useRef(null);
     const linkSection = useRef(null);
+    const paySection = useRef(null);
 
     const scrollToTimeline = () => { // @ts-ignore
         window.scrollTo({top: timelineSection.current.offsetTop, behavior: 'smooth',});
     }
     const scrollToLinkSection = () => { // @ts-ignore
         window.scrollTo({top: linkSection.current.offsetTop, behavior: 'smooth',});
+    }
+
+    const scrollToPaySection = () => { // @ts-ignore
+        window.scrollTo({top: paySection.current.offsetTop, behavior: 'smooth',});
     }
 
     return (
@@ -64,7 +69,7 @@ function App() {
                 {/*    </li>*/}
                 {/*</ul>*/}
                 <div className={'evelynsshit'}>
-                    <h1 className="text-3xl sm:text-5xl md:text-7xl lg:text-9xl tracking-wider">
+                    <h1 className="text-3xl sm:text-5xl md:text-7xl lg:text-9xl tracking-wider text-white">
                         Bring us to a 3 Star Michelin Restaurant?
                         <div className={"flex mb-10 bottom-0 content-center justify-center"}>
                             <button className={"ripple rounded-full animate-bounce border-blue-600 border-2"}
@@ -80,12 +85,30 @@ function App() {
                             </button>
                         </div>
                     </h1>
-                    <h2 className="text-3xl sm:text-3xl md:text-5xl lg:text-7xl tracking-wider">
-                        (And pay)
-                    </h2>
+                    {/*<h2 className="text-3xl sm:text-3xl md:text-5xl lg:text-7xl tracking-wider">*/}
+                    {/*    (And pay)*/}
+                    {/*</h2>*/}
                 </div>
             </div>
-            <div className={'evelynsshit2'} ref={linkSection}>
+            <div className={'evelynsshit3'} ref={linkSection}>
+                <h1 className="text-5xl sm:text-5xl md:text-7xl lg:text-8xl tracking-wider text-deep-purple-400 bg-gray-300/50  hover:text-amber-800 hover:lg:text-9xl">
+                    And pay for everything?
+                </h1>
+                <div className={"flex mb-10 ml-20 mt-10 bottom-0 content-center justify-center text-white"}>
+                    <button className={"ripple rounded-full animate-bounce border-blue-600 border-2"}
+                            onClick={scrollToPaySection}>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+                             className="w-12 h-12 rounded-full icon icon-tabler icons-tabler-outline icon-tabler-arrow-down">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M12 5l0 14"/>
+                            <path d="M18 13l-6 6"/>
+                            <path d="M6 13l6 6"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div className={'evelynsshit2'} ref={paySection}>
                 <h1 className="text-5xl sm:text-5xl md:text-7xl lg:text-9xl tracking-wider text-amber-500 hover:bg-amber-300/70 hover:text-amber-800">
                     <a href="https://www.chevalblancbasel.com/en/reservation" target="_blank" rel="noopener noreferrer"><strong><u>Cheval Blanc by Peter Knogl</u></strong></a>
                 </h1>

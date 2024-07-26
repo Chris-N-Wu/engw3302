@@ -70,6 +70,16 @@
   /*font-size: 20rem;*/
 }
 
+.evelynsshit3 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  background-image: url("https://wallpapercave.com/wp/wp4195652.jpg");
+}
+
 .alumniPin {
   font-family: 'Alumni Sans Pinstripe', sans-serif;
 }
